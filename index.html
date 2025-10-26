@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de la Pedagogía - Línea del Tiempo</title>
+    <style>
+        :root {
+            /* Primitive Color Tokens */
+            --color-white: rgba(255, 255, 255, 1);
+            --color-black: rgba(0, 0, 0, 1);
+            --color-cream-50: rgba(252, 252, 249, 1);
+            --color-cream-100: rgba(255, 255, 253, 1);
+            --color-gray-200: rgba(245, 245, 245, 1);
+            --color-gray-300: rgba(167, 169, 169, 1);
+            --color-gray-400: rgba(119, 124, 124, 1);
+            --color-slate-500: rgba(98, 108, 113, 1);
+            --color-brown-600: rgba(94, 82, 64, 1);
+            --color-charcoal-700: rgba(31, 33, 33, 1);
+            --color-charcoal-800: rgba(38, 40, 40, 1);
+            --color-slate-900: rgba(19, 52, 59, 1);
+            --color-teal-300: rgba(50, 184, 198, 1);
+            --color-teal-400: rgba(45, 166, 178, 1);
+            --color-teal-500: rgba(33, 128, 141, 1);
+            --color-teal-600: rgba(29, 116, 128, 1);
+            --color-teal-700: rgba(26, 104, 115, 1);
+            --color-teal-800: rgba(41, 150, 161, 1);
+            --color-red-400: rgba(255, 84, 89, 1);
+            --color-red-500: rgba(192, 21, 47, 1);
+            --color-orange-400: rgba(230, 129, 97, 1);
+            --color-orange-500: rgba(168, 75, 47, 1);
+            /* RGB versions for opacity control */
+            --color-brown-600-rgb: 94, 82, 64;
+            --color-teal-500-rgb: 33, 128, 141;
+            --color-slate-900-rgb: 19, 52, 59;
+            --color-slate-500-rgb: 98, 108, 113;
+            --color-red-500-rgb: 192, 21, 47;
+            --color-red-400-rgb: 255, 84, 89;
+            --color-orange-500-rgb: 168, 75, 47;
+            --color-orange-400-rgb: 230, 129, 97;
+            /* Background color tokens (Light Mode) */
+            --color-bg-1: rgba(59, 130, 246, 0.08);
+            --color-bg-2: rgba(245, 158, 11, 0.08);
+            --color-bg-3: rgba(34, 197, 94, 0.08);
+            --color-bg-4: rgba(239, 68, 68, 0.08);
+            --color-bg-5: rgba(147, 51, 234, 0.08);
+            --color-bg-6: rgba(249, 115, 22, 0.08);
+            --color-bg-7: rgba(236, 72, 153, 0.08);
+            --color-bg-8: rgba(6, 182, 212, 0.08);
+            /* Semantic Color Tokens (Light Mode) */
+            --color-background: var(--color-cream-50);
+            --color-surface: var(--color-cream-100);
+            --color-text: var(--color-slate-900);
+            --color-text-secondary: var(--color-slate-500);
+            --color-primary: var(--color-teal-500);
+            --color-primary-hover: var(--color-teal-600);
+            --color-primary-active: var(--color-teal-700);
+            --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
+            --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2);
+            --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25);
+            --color-border: rgba(var(--color-brown-600-rgb), 0.2);
+            --color-btn-primary-text: var(--color-cream-50);
+            --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
+            --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12);
+            --color-error: var(--color-red-500);
+            --color-success: var(--color-teal-500);
+            --color-warning: var(--color-orange-500);
+            --color-info: var(--color-slate-500);
+            --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
+            /* Typography */
+            --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            --font-size-xs: 11px;
+            --font-size-sm: 12px;
+            --font-size-base: 14px;
+            --font-size-md: 14px;
+            --font-size-lg: 16px;
+            --font-size-xl: 18px;
+            --font-size-2xl: 20px;
+            --font-size-3xl: 24px;
+            --font-size-4xl: 30px;
+            --font-weight-normal: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 550;
+            --font-weight-bold: 600;
+            --line-height-tight: 1.2;
+            --line-height-normal: 1.5;
+            --letter-spacing-tight: -0.01em;
+            /* Spacing */
+            --space-0: 0;
+            --space-1: 1px;
+            --space-2: 2px;
+            --space-4: 4px;
+            --space-6: 6px;
+            --space-8: 8px;
+            --space-10: 10px;
+            --space-12: 12px;
+            --space-16: 16px;
+            --space-20: 20px;
+            --space-24: 24px;
+            --space-32: 32px;
+            /* Border Radius */
+            --radius-sm: 6px;
+            --radius-base: 8px;
+            --radius-md: 10px;
+            --radius-lg: 12px;
+            --radius-full: 9999px;
+            /* Shadows */
+            --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+            /* Animation */
+            --duration-fast: 150ms;
+            --duration-normal: 250ms;
+            --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+            /* Theme variables */
+            --theme-color: #E0F2FE;
+        }
+        /* Base styles */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-family-base);
+            background-color: var(--color-background);
+            color: var(--color-text);
+            line-height: var(--line-height-normal);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-16);
+        }
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--theme-color), var(--color-surface));
+            padding: var(--space-24) 0;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: background 0.3s ease;
+        }
+        .header h1 {
+            text-align: center;
+            margin-bottom: var(--space-16);
+            color: var(--color-text);
+            font-size: var(--font-size-3xl);
+            font-weight: var(--font-weight-bold);
+        }
+        /* Controls */
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-12);
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--space-16);
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-6);
+            padding: var(--space-8) var(--space-16);
+            border: none;
+            border-radius: var(--radius-base);
+            background: var(--color-primary);
+            color: var(--color-btn-primary-text);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            cursor: pointer;
+            transition: all var(--duration-fast) var(--ease-standard);
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: var(--color-primary-hover);
+            transform: translateY(-1px);
+        }
+        .btn.btn-secondary {
+            background: var(--color-secondary);
+            color: var(--color-text);
+        }
+        .btn.btn-secondary:hover {
+            background: var(--color-secondary-hover);
+        }
+        .btn.btn-danger {
+            background: var(--color-error);
+            color: white;
+        }
+        .btn.btn-danger:hover {
+            background: #b91c1c;
+        }
+        .btn.active {
+            background: var(--color-primary-active);
+        }
+        /* Theme selector */
+        .theme-selector {
+            position: relative;
+        }
+        .theme-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-base);
+            box-shadow: var(--shadow-lg);
+            z-index: 200;
+            min-width: 200px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+        .theme-dropdown.show {
+            display: block;
+        }
+        .theme-option {
+            display: flex;
+            align-items: center;
+            gap: var(--space-8);
+            padding: var(--space-8) var(--space-12);
+            cursor: pointer;
+            transition: background var(--duration-fast);
+        }
+        .theme-option:hover {
+            background: var(--color-secondary);
+        }
+        .theme-color-preview {
+            width: 20px;
+            height: 20px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--color-border);
+        }
+        /* Filters */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-8);
+            justify-content: center;
+            margin-bottom: var(--space-24);
+        }
+        .filter-btn {
+            padding: var(--space-6) var(--space-12);
+            border: 1px solid var(--color-border);
+            background: var(--color-surface);
+            color: var(--color-text);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-sm);
+            cursor: pointer;
+            transition: all var(--duration-fast);
+        }
+        .filter-btn:hover {
+            background: var(--color-secondary);
+        }
+        .filter-btn.active {
+            background: var(--color-primary);
+            color: var(--color-btn-primary-text);
+            border-color: var(--color-primary);
+        }
+        /* Timeline */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-24) 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--color-border);
+            transform: translateX(-50%);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: var(--space-32);
+            opacity: 0;
+            animation: fadeInUp 0.6s forwards;
+        }
+        .timeline-item:nth-child(even) {
+            animation-delay: 0.1s;
+        }
+        .timeline-item:nth-child(odd) {
+            animation-delay: 0.2s;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .timeline-item.dragging {
+            opacity: 0.7;
+            transform: rotate(5deg);
+            z-index: 1000;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: var(--space-16);
+            width: 16px;
+            height: 16px;
+            background: var(--color-primary);
+            border: 3px solid var(--color-surface);
+            border-radius: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            cursor: grab;
+        }
+        .timeline-dot:active {
+            cursor: grabbing;
+        }
+		.timeline-content {
+			width: calc(50% - 30px);
+			background: var(--theme-color);
+			border: 1px solid var(--color-card-border);
+			border-radius: var(--radius-lg);
+			padding: var(--space-20);
+			box-shadow: var(--shadow-md);
+			position: relative;
+			transition: all var(--duration-normal);
+			/* Limitar altura máxima y permitir scroll interno */
+			max-height: 320px; /* Ajustable según necesidad */
+			overflow-y: auto;
+			scrollbar-width: thin; /* Firefox */
+			scrollbar-color: var(--color-primary) transparent; /* Firefox */
+		}
+		/* Estilo del scroll para Chrome/Edge/Safari */
+		.timeline-content::-webkit-scrollbar {
+			width: 6px;
+		}
+		.timeline-content::-webkit-scrollbar-track {
+			background: transparent;
+		}
+		.timeline-content::-webkit-scrollbar-thumb {
+			background-color: var(--color-primary);
+			border-radius: 3px;
+		}
+        .timeline-content:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: auto;
+        }
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-right: auto;
+        }
+        .timeline-content::before {
+            content: '';
+            position: absolute;
+            top: var(--space-16);
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+        }
+        .timeline-item:nth-child(odd) .timeline-content::before {
+            left: -20px;
+            border-right-color: var(--theme-color);
+        }
+        .timeline-item:nth-child(even) .timeline-content::before {
+            right: -20px;
+            border-left-color: var(--theme-color);
+        }
+        .hito-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--space-12);
+        }
+        .hito-period {
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+            font-size: var(--font-size-lg);
+        }
+        .hito-actions {
+            display: flex;
+            gap: var(--space-4);
+        }
+        .btn-icon {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: var(--color-secondary);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--duration-fast);
+            font-size: var(--font-size-sm);
+        }
+        .btn-icon:hover {
+            background: var(--color-secondary-hover);
+            transform: scale(1.1);
+        }
+        .btn-icon.delete {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--color-error);
+        }
+        .btn-icon.delete:hover {
+            background: rgba(239, 68, 68, 0.2);
+        }
+        .hito-title {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-8);
+            color: var(--color-text);
+        }
+        .hito-description {
+            margin-bottom: var(--space-12);
+            line-height: 1.6;
+            color: var(--color-text-secondary);
+        }
+        .pedagogos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-6);
+            margin-bottom: var(--space-12);
+        }
+        .pedagogo-badge {
+            background: rgba(var(--color-primary-rgb, 33, 128, 141), 0.1);
+            color: var(--color-primary);
+            padding: var(--space-4) var(--space-8);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-xs);
+            font-weight: var(--font-weight-medium);
+        }
+        .hito-multimedia {
+            margin-bottom: var(--space-12);
+            border-radius: var(--radius-base);
+            overflow: hidden;
+        }
+        .hito-multimedia img,
+        .hito-multimedia video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .hito-multimedia iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        .hito-reference {
+            font-size: var(--font-size-sm);
+            font-style: italic;
+            color: var(--color-text-secondary);
+            border-left: 3px solid var(--color-border);
+            padding-left: var(--space-12);
+        }
+        .delete-indicator {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 30px;
+            height: 30px;
+            background: var(--color-error);
+            color: white;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: var(--font-size-lg);
+            z-index: 20;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        .delete-mode .delete-indicator {
+            display: flex;
+        }
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            backdrop-filter: blur(4px);
+        }
+        .modal-overlay.show {
+            display: flex;
+        }
+        .modal {
+            background: var(--color-surface);
+            border-radius: var(--radius-lg);
+            padding: var(--space-24);
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            animation: modalSlideIn 0.3s ease;
+        }
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-20);
+            padding-bottom: var(--space-16);
+            border-bottom: 1px solid var(--color-border);
+        }
+        .modal-title {
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-text);
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: var(--font-size-2xl);
+            cursor: pointer;
+            color: var(--color-text-secondary);
+            padding: var(--space-4);
+            border-radius: var(--radius-sm);
+            transition: all var(--duration-fast);
+        }
+        .modal-close:hover {
+            background: var(--color-secondary);
+            color: var(--color-text);
+        }
+        .form-group {
+            margin-bottom: var(--space-16);
+        }
+        .form-label {
+            display: block;
+            margin-bottom: var(--space-6);
+            font-weight: var(--font-weight-medium);
+            color: var(--color-text);
+        }
+        .form-control {
+            width: 100%;
+            padding: var(--space-10) var(--space-12);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-base);
+            background: var(--color-surface);
+            color: var(--color-text);
+            font-size: var(--font-size-base);
+            transition: border-color var(--duration-fast);
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px var(--color-focus-ring);
+        }
+        textarea.form-control {
+            resize: vertical;
+            min-height: 80px;
+        }
+        .multimedia-upload {
+            border: 2px dashed var(--color-border);
+            border-radius: var(--radius-base);
+            padding: var(--space-20);
+            text-align: center;
+            cursor: pointer;
+            transition: all var(--duration-fast);
+        }
+        .multimedia-upload:hover {
+            border-color: var(--color-primary);
+            background: var(--color-bg-1);
+        }
+        .multimedia-upload.dragover {
+            border-color: var(--color-primary);
+            background: var(--color-bg-1);
+        }
+        .multimedia-preview {
+            margin-top: var(--space-12);
+            border-radius: var(--radius-base);
+            overflow: hidden;
+            position: relative;
+        }
+        .multimedia-preview img,
+        .multimedia-preview video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .multimedia-preview iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        .multimedia-remove {
+            position: absolute;
+            top: var(--space-8);
+            right: var(--space-8);
+            background: var(--color-error);
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-actions {
+            display: flex;
+            gap: var(--space-12);
+            justify-content: flex-end;
+            margin-top: var(--space-24);
+            padding-top: var(--space-16);
+            border-top: 1px solid var(--color-border);
+        }
+        /* Status messages */
+        .status-message {
+            position: fixed;
+            top: var(--space-20);
+            right: var(--space-20);
+            padding: var(--space-12) var(--space-16);
+            border-radius: var(--radius-base);
+            box-shadow: var(--shadow-md);
+            z-index: 2000;
+            font-weight: var(--font-weight-medium);
+            transform: translateX(400px);
+            transition: transform var(--duration-normal) var(--ease-standard);
+        }
+        .status-message.show {
+            transform: translateX(0);
+        }
+        .status-message.success {
+            background: rgba(var(--color-success-rgb, 33, 128, 141), 0.1);
+            color: var(--color-success);
+            border: 1px solid rgba(var(--color-success-rgb, 33, 128, 141), 0.2);
+        }
+        .status-message.error {
+            background: rgba(var(--color-error-rgb, 192, 21, 47), 0.1);
+            color: var(--color-error);
+            border: 1px solid rgba(var(--color-error-rgb, 192, 21, 47), 0.2);
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 30px;
+            }
+            .timeline-dot {
+                left: 30px;
+            }
+            .timeline-content {
+                width: calc(100% - 70px);
+                margin-left: 60px !important;
+            }
+            .timeline-content::before {
+                left: -20px !important;
+                right: auto !important;
+                border-left-color: transparent !important;
+                border-right-color: var(--theme-color) !important;
+            }
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .filters {
+                justify-content: flex-start;
+                overflow-x: auto;
+                padding-bottom: var(--space-8);
+            }
+			.timeline-content {
+				max-height: 280px;
+				padding: var(--space-16);
+			}			
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        /* Database info panel */
+        .db-info {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-base);
+            padding: var(--space-12);
+            box-shadow: var(--shadow-md);
+            font-size: var(--font-size-sm);
+            z-index: 100;
+            min-width: 200px;
+        }
+        .db-info h4 {
+            margin: 0 0 var(--space-8) 0;
+            font-size: var(--font-size-sm);
+            color: var(--color-primary);
+        }
+        .db-info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: var(--space-4);
+        }
+        .db-info-label {
+            color: var(--color-text-secondary);
+        }
+        .db-info-value {
+            color: var(--color-text);
+            font-weight: var(--font-weight-medium);
+        }
+        .badge-db {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-4);
+            padding: var(--space-4) var(--space-8);
+            background: rgba(var(--color-success-rgb, 33, 128, 141), 0.1);
+            color: var(--color-success);
+            border: 1px solid rgba(var(--color-success-rgb, 33, 128, 141), 0.2);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-xs);
+            font-weight: var(--font-weight-medium);
+        }
+        .badge-db.success {
+            background: rgba(var(--color-success-rgb), 0.1);
+            color: var(--color-success);
+            border: 1px solid rgba(var(--color-success-rgb), 0.2);
+        }
+        .badge-db.syncing {
+            background: rgba(var(--color-warning-rgb), 0.1);
+            color: var(--color-warning);
+            border: 1px solid rgba(var(--color-warning-rgb), 0.2);
+        }
+        .badge-db.error {
+            background: rgba(var(--color-error-rgb), 0.1);
+            color: var(--color-error);
+            border: 1px solid rgba(var(--color-error-rgb), 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Historia de la Pedagogía 🔥</h1>
+            <div style="text-align: center; margin-bottom: 16px;">
+                <span class="badge-db" id="dbBadge">☁️ Conectado a Firebase</span>
+            </div>
+            <!-- Controls -->
+            <div class="controls">
+                <button class="btn" id="addHitoBtn">
+                    <span>+</span> Añadir Hito
+                </button>
+                <button class="btn btn-secondary" id="deleteMode">
+                    <span>🗑️</span> Eliminar Hito
+                </button>
+                <button class="btn btn-secondary" id="saveBtn">
+                    <span>💾</span> Guardar Cambios
+                </button>
+                <button class="btn btn-secondary" id="restoreBtn">
+                    <span>🔄</span> Restaurar Original
+                </button>
+                <div class="theme-selector">
+                    <button class="btn btn-secondary" id="themeBtn">
+                        <span>🎨</span> Tema
+                    </button>
+                    <div class="theme-dropdown" id="themeDropdown"></div>
+                </div>
+                <button class="btn btn-secondary" id="firebaseConfigBtn">
+                    <span>🔥</span> Cambiar Configuración Firebase
+                </button>
+            </div>
+            <!-- Filters -->
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-epoca="todas">Todas</button>
+                <button class="filter-btn" data-epoca="prehistoria">Prehistoria</button>
+                <button class="filter-btn" data-epoca="antiguedad">Antigüedad</button>
+                <button class="filter-btn" data-epoca="medieval">Medieval</button>
+                <button class="filter-btn" data-epoca="renacimiento">Renacimiento</button>
+                <button class="filter-btn" data-epoca="moderna">Moderna</button>
+                <button class="filter-btn" data-epoca="contemporanea">Contemporánea</button>
+                <button class="filter-btn" data-epoca="digital">Era Digital</button>
+            </div>
+        </div>
+    </header>
+    <!-- Main content -->
+    <main class="container">
+        <div class="timeline" id="timeline"></div>
+    </main>
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">Añadir Hito</h2>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <form id="hitoForm">
+                <div class="form-group">
+                    <label class="form-label" for="periodo">Período *</label>
+                    <input type="text" class="form-control" id="periodo" name="periodo" required 
+                           placeholder="ej: 8000 a.C. o 1896">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="titulo">Título *</label>
+                    <input type="text" class="form-control" id="titulo" name="titulo" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="descripcion">Descripción *</label>
+                    <textarea class="form-control" id="descripcion" name="descripcion" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="pedagogos">Pedagogos Clave</label>
+                    <input type="text" class="form-control" id="pedagogos" name="pedagogos" 
+                           placeholder="Separados por comas">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="referencia">Referencia o Fuente</label>
+                    <textarea class="form-control" id="referencia" name="referencia"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Multimedia</label>
+					<div class="form-group">
+						<label class="form-label">URL de YouTube (opcional)</label>
+						<input type="url" class="form-control" id="youtubeUrl" placeholder="https://www.youtube.com/watch?v=...">
+					</div>
+                    <div class="multimedia-preview" id="multimediaPreview" style="display: none;"></div>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" id="cancelBtn">Cancelar</button>
+                    <button type="submit" class="btn">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Status Message -->
+    <div class="status-message" id="statusMessage"></div>
+    <!-- Firebase Configuration Modal -->
+    <div class="modal-overlay" id="firebaseConfigModal">
+        <div class="modal" style="max-width: 700px;">
+            <div class="modal-header">
+                <h2 class="modal-title">🔥 Cambiar Configuración Firebase</h2>
+                <button class="modal-close" id="configModalClose">&times;</button>
+            </div>
+            <div style="margin-bottom: 20px; padding: 16px; background: var(--color-bg-1); border-radius: var(--radius-base); border: 1px solid var(--color-border);">
+                <p style="margin: 0; font-weight: 500; color: var(--color-primary);">Esta app ya viene preconfigurada para funcionar con un proyecto de Firebase. Usa este formulario solo si deseas conectar otro proyecto.</p>
+            </div>
+            <form id="firebaseConfigForm">
+                <div class="form-group">
+                    <label class="form-label" for="apiKey">API Key *</label>
+                    <input type="text" class="form-control" id="apiKey" name="apiKey" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="authDomain">Auth Domain *</label>
+                    <input type="text" class="form-control" id="authDomain" name="authDomain" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="databaseURL">Database URL *</label>
+                    <input type="url" class="form-control" id="databaseURL" name="databaseURL" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="projectId">Project ID *</label>
+                    <input type="text" class="form-control" id="projectId" name="projectId" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="storageBucket">Storage Bucket *</label>
+                    <input type="text" class="form-control" id="storageBucket" name="storageBucket" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="messagingSenderId">Messaging Sender ID *</label>
+                    <input type="text" class="form-control" id="messagingSenderId" name="messagingSenderId" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="appId">App ID *</label>
+                    <input type="text" class="form-control" id="appId" name="appId" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="measurementId">Measurement ID *</label>
+                    <input type="text" class="form-control" id="measurementId" name="measurementId" required>
+                </div>
+                <div class="modal-actions">
+                    <button type="submit" class="btn">💾 Conectar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Database Info Panel -->
+    <div class="db-info" id="dbInfo">
+        <h4>🔥 Firebase</h4>
+        <div class="db-info-row">
+            <span class="db-info-label">Sistema:</span>
+            <span class="db-info-value">Realtime Database</span>
+        </div>
+        <div class="db-info-row">
+            <span class="db-info-label">Hitos:</span>
+            <span class="db-info-value" id="hitosCount">0</span>
+        </div>
+        <div class="db-info-row">
+            <span class="db-info-label">Estado:</span>
+            <span class="db-info-value" id="dbStatus">Conectando...</span>
+        </div>
+    </div>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+    <script>
+        /* ========== FIREBASE TIMELINE IMPLEMENTATION ========== */
+        class FirebaseTimeline {
+            constructor() {
+                this.app = null;
+                this.database = null;
+                this.storage = null;
+                this.isConnected = false;
+                this.callbacks = [];
+                this.listeners = [];
+                this.syncStatus = 'disconnected';
+            }
+            async init(firebaseConfig) {
+                try {
+                    if (this.app) firebase.app().delete();
+                    this.app = firebase.initializeApp(firebaseConfig);
+                    this.database = firebase.database();
+                    this.storage = firebase.storage();
+                    await this.database.ref('.info/connected').once('value');
+                    this.isConnected = true;
+                    this.syncStatus = 'connected';
+                    this.setupRealtimeListeners();
+                    this.triggerCallbacks();
+                    this.updateStatusIndicators();
+                    console.log('[Firebase] Conectado correctamente');
+                    return true;
+                } catch (error) {
+                    console.error('[Firebase] Error de conexión:', error);
+                    this.isConnected = false;
+                    this.syncStatus = 'error';
+                    this.updateStatusIndicators();
+                    throw error;
+                }
+            }
+            onConnected(cb) {
+                if (this.isConnected) cb(); else this.callbacks.push(cb);
+            }
+            triggerCallbacks() {
+                this.callbacks.forEach(cb => cb());
+                this.callbacks = [];
+            }
+            setupRealtimeListeners() {
+                this.listeners.forEach(ref => ref.off());
+                this.listeners = [];
+                const hitosRef = this.database.ref('pedagogia-timeline/hitos');
+                hitosRef.on('value', () => {
+                    if (window.timelineApp) window.timelineApp.onDataUpdated();
+                });
+                this.listeners.push(hitosRef);
+            }
+            disconnect() {
+                this.listeners.forEach(ref => ref.off());
+                this.listeners = [];
+                this.isConnected = false;
+                this.syncStatus = 'disconnected';
+                this.updateStatusIndicators();
+            }
+            async saveHito(hito) {
+                try {
+                    this.syncStatus = 'syncing';
+                    this.updateStatusIndicators();
+                    await this.database.ref(`pedagogia-timeline/hitos/${hito.id}`).set(hito);
+                    this.syncStatus = 'connected';
+                    this.updateStatusIndicators();
+                    return true;
+                } catch (error) {
+                    this.syncStatus = 'error';
+                    this.updateStatusIndicators();
+                    throw error;
+                }
+            }
+            async getAllHitos() {
+                try {
+                    const snapshot = await this.database.ref('pedagogia-timeline/hitos').once('value');
+                    const data = snapshot.val();
+                    return data ? Object.values(data) : [];
+                } catch (error) {
+                    console.error('[Firebase] Error al obtener hitos:', error);
+                    throw error;
+                }
+            }
+            async getHito(id) {
+                try {
+                    const snapshot = await this.database.ref(`pedagogia-timeline/hitos/${id}`).once('value');
+                    return snapshot.val();
+                } catch (error) {
+                    console.error('[Firebase] Error al obtener hito:', error);
+                    throw error;
+                }
+            }
+            async deleteHito(id) {
+                try {
+                    this.syncStatus = 'syncing';
+                    this.updateStatusIndicators();
+                    await this.database.ref(`pedagogia-timeline/hitos/${id}`).remove();
+                    this.syncStatus = 'connected';
+                    this.updateStatusIndicators();
+                } catch (error) {
+                    this.syncStatus = 'error';
+                    this.updateStatusIndicators();
+                    throw error;
+                }
+            }
+            async uploadFile(file, hitoId) {
+                try {
+                    this.syncStatus = 'uploading';
+                    this.updateStatusIndicators();
+                    const fileName = `${Date.now()}_${file.name}`;
+                    const storageRef = this.storage.ref(`pedagogia-timeline/multimedia/${hitoId}/${fileName}`);
+                    return new Promise((resolve, reject) => {
+                        const uploadTask = storageRef.put(file);
+                        uploadTask.on('state_changed', null,
+                            (error) => {
+                                this.syncStatus = 'error';
+                                this.updateStatusIndicators();
+                                reject(error);
+                            },
+                            async () => {
+                                const downloadURL = await uploadTask.snapshot.ref.getDownloadURL();
+                                this.syncStatus = 'connected';
+                                this.updateStatusIndicators();
+                                resolve(downloadURL);
+                            }
+                        );
+                    });
+                } catch (error) {
+                    this.syncStatus = 'error';
+                    this.updateStatusIndicators();
+                    throw error;
+                }
+            }
+            async saveConfig(key, value) {
+                try {
+                    await this.database.ref(`pedagogia-timeline/config/${key}`).set(value);
+                    return true;
+                } catch (error) {
+                    console.error('[Firebase] Error al guardar config:', error);
+                    throw error;
+                }
+            }
+            async getConfig(key) {
+                try {
+                    const snapshot = await this.database.ref(`pedagogia-timeline/config/${key}`).once('value');
+                    return snapshot.val();
+                } catch (error) {
+                    console.error('[Firebase] Error al obtener config:', error);
+                    throw error;
+                }
+            }
+            async clearAll() {
+                try {
+                    this.syncStatus = 'syncing';
+                    this.updateStatusIndicators();
+                    await this.database.ref('pedagogia-timeline/hitos').remove();
+                    this.syncStatus = 'connected';
+                    this.updateStatusIndicators();
+                } catch (error) {
+                    this.syncStatus = 'error';
+                    this.updateStatusIndicators();
+                    throw error;
+                }
+            }
+            updateStatusIndicators() {
+                const badge = document.getElementById('dbBadge');
+                const status = document.getElementById('dbStatus');
+                const hitosCount = document.getElementById('hitosCount');
+                if (!badge || !status) return;
+                switch (this.syncStatus) {
+                    case 'connected':
+                        badge.textContent = '☁️ Conectado a Firebase';
+                        badge.className = 'badge-db success';
+                        status.textContent = 'Sincronizado ✓';
+                        break;
+                    case 'syncing':
+                        badge.textContent = '⏳ Sincronizando...';
+                        badge.className = 'badge-db syncing';
+                        status.textContent = 'Sincronizando...';
+                        break;
+                    case 'uploading':
+                        badge.textContent = '📤 Subiendo archivos...';
+                        badge.className = 'badge-db syncing';
+                        status.textContent = 'Subiendo...';
+                        break;
+                    case 'error':
+                        badge.textContent = '❌ Error de conexión';
+                        badge.className = 'badge-db error';
+                        status.textContent = 'Error ❌';
+                        break;
+                    default:
+                        badge.textContent = '❌ Sin conexión';
+                        badge.className = 'badge-db error';
+                        status.textContent = 'Desconectado';
+                }
+                if (hitosCount) {
+                    this.getAllHitos().then(hitos => {
+                        hitosCount.textContent = hitos.length;
+                    }).catch(() => hitosCount.textContent = '0');
+                }
+            }
+        }
+
+        let db = new FirebaseTimeline();
+
+        const DEFAULT_FIREBASE_CONFIG = {
+            apiKey: "AIzaSyDMA_AHPksB3cvyZ55i4Ue_gHRfmg7QjZY",
+            authDomain: "historia-de-la-pedagogia-b4e30.firebaseapp.com",
+            databaseURL: "https://historia-de-la-pedagogia-b4e30-default-rtdb.firebaseio.com",
+            projectId: "historia-de-la-pedagogia-b4e30",
+            storageBucket: "historia-de-la-pedagogia-b4e30.firebasestorage.app",
+            messagingSenderId: "376025959503",
+            appId: "1:376025959503:web:1821e4d296f22a1bf06e3a",
+            measurementId: "G-EWGK81DC3T"
+        };
+
+        const initialHitos = [
+            {id:1,periodo:"8000 a.C.",titulo:"Educación de cazadores-recolectores",descripcion:"Aprendizaje oral y práctico, basado en la observación, el juego y la transmisión entre generaciones.",pedagogos_clave:["Comunidades tribales"],epoca:"prehistoria",referencia:"",multimedia:null},
+            {id:2,periodo:"3000 a.C.",titulo:"Primeras escuelas en Mesopotamia",descripcion:"Se enseña escritura, matemáticas y religión; surgen los templos como centros de educación.",pedagogos_clave:["Sacerdotes sumerios"],epoca:"prehistoria",referencia:"",multimedia:null},
+            {id:3,periodo:"470-399 a.C.",titulo:"Método socrático",descripcion:"Sócrates inicia la interrogación filosófica, promoviendo el aprendizaje por diálogo.",pedagogos_clave:["Sócrates"],epoca:"antiguedad",referencia:"",multimedia:null},
+            {id:4,periodo:"427-347 a.C.",titulo:"Platón y la Academia",descripcion:"Fundación de la primera universidad occidental, enseñanza de filosofía y matemáticas.",pedagogos_clave:["Platón"],epoca:"antiguedad",referencia:"",multimedia:null},
+            {id:5,periodo:"384-322 a.C.",titulo:"Aristóteles y el Liceo",descripcion:"Metodología basada en la observación de la realidad, precursor del método científico.",pedagogos_clave:["Aristóteles"],epoca:"antiguedad",referencia:"",multimedia:null},
+            {id:6,periodo:"Siglos IX-XII",titulo:"Escuelas monásticas y catedralicias",descripcion:"Motores de transmisión del conocimiento durante la Edad Media, enseñanza en monasterios e iglesias.",pedagogos_clave:["San Agustín","Monjes medievales"],epoca:"medieval",referencia:"",multimedia:null},
+            {id:7,periodo:"1088",titulo:"Fundación de la Universidad de Bolonia",descripcion:"Nacen las universidades medievales, centros de estudios superiores.",pedagogos_clave:["Fundadores de Bolonia"],epoca:"medieval",referencia:"",multimedia:null},
+            {id:8,periodo:"1225-1274",titulo:"Santo Tomás de Aquino y la escolástica",descripcion:"Unificación de fe y razón, creación de sistema educativo basado en lógica y teología.",pedagogos_clave:["Santo Tomás de Aquino"],epoca:"medieval",referencia:"",multimedia:null},
+            {id:9,periodo:"1592",titulo:"Comenio y la Didáctica Magna",descripcion:"Propone enseñanza universal y gradual, sentando las bases de la pedagogía moderna.",pedagogos_clave:["Juan Amós Comenio"],epoca:"renacimiento",referencia:"",multimedia:null},
+            {id:10,periodo:"1632-1704",titulo:"John Locke y el empirismo educativo",descripcion:"La mente como 'tabula rasa', educación basada en la experiencia.",pedagogos_clave:["John Locke"],epoca:"renacimiento",referencia:"",multimedia:null},
+            {id:11,periodo:"1712-1778",titulo:"Jean-Jacques Rousseau y la educación natural",descripcion:"Emilio, o De la educación: defensa de la educación natural y libre.",pedagogos_clave:["Jean-Jacques Rousseau"],epoca:"moderna",referencia:"",multimedia:null},
+            {id:12,periodo:"1746-1827",titulo:"Johann Heinrich Pestalozzi",descripcion:"Educación integral centrada en el desarrollo físico, intelectual y moral del niño.",pedagogos_clave:["Johann Heinrich Pestalozzi"],epoca:"moderna",referencia:"",multimedia:null},
+            {id:13,periodo:"1782-1852",titulo:"Friedrich Fröbel y el kindergarten",descripcion:"Creación del primer jardín de infantes, educación a través del juego.",pedagogos_clave:["Friedrich Fröbel"],epoca:"moderna",referencia:"",multimedia:null},
+            {id:14,periodo:"1859-1952",titulo:"John Dewey y la educación progresista",descripcion:"Aprendizaje por experiencia, educación democrática y activa.",pedagogos_clave:["John Dewey"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:15,periodo:"1870-1952",titulo:"María Montessori",descripcion:"Método Montessori: educación sensorial y autonomía del niño.",pedagogos_clave:["María Montessori"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:16,periodo:"1896-1980",titulo:"Jean Piaget y la epistemología genética",descripcion:"Etapas del desarrollo cognitivo, constructivismo.",pedagogos_clave:["Jean Piaget"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:17,periodo:"1896-1934",titulo:"Lev Vygotsky y la teoría sociocultural",descripcion:"Zona de desarrollo próximo, importancia de la interacción social en el aprendizaje.",pedagogos_clave:["Lev Vygotsky"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:18,periodo:"1904-1990",titulo:"B.F. Skinner y el condicionamiento operante",descripcion:"Conductismo, refuerzo positivo y negativo en el aprendizaje.",pedagogos_clave:["B.F. Skinner"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:19,periodo:"1915-1997",titulo:"Jerome Bruner y el aprendizaje por descubrimiento",descripcion:"Aprendizaje activo, andamiaje educativo.",pedagogos_clave:["Jerome Bruner"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:20,periodo:"1918-2014",titulo:"David Ausubel y el aprendizaje significativo",descripcion:"Importancia de los conocimientos previos para construir nuevos aprendizajes.",pedagogos_clave:["David Ausubel"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:21,periodo:"1921-2021",titulo:"Paulo Freire y la pedagogía crítica",descripcion:"Pedagogía del oprimido, educación liberadora y dialógica.",pedagogos_clave:["Paulo Freire"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:22,periodo:"1928-actualidad",titulo:"Noam Chomsky y la lingüística generativa",descripcion:"Teoría de la gramática universal, capacidad innata del lenguaje.",pedagogos_clave:["Noam Chomsky"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:23,periodo:"1943-actualidad",titulo:"Howard Gardner y las inteligencias múltiples",descripcion:"Identificación de ocho tipos de inteligencia, personalización de la educación.",pedagogos_clave:["Howard Gardner"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:24,periodo:"1980s",titulo:"Constructivismo en educación",descripcion:"El alumno construye su conocimiento activamente, basado en Piaget, Vygotsky y Bruner.",pedagogos_clave:["Piaget","Vygotsky","Bruner"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:25,periodo:"1990s",titulo:"Aprendizaje colaborativo y cooperativo",descripcion:"Trabajo en equipo, construcción colectiva del conocimiento.",pedagogos_clave:["David Johnson","Roger Johnson"],epoca:"contemporanea",referencia:"",multimedia:null},
+            {id:26,periodo:"2000s",titulo:"Tecnología educativa y e-learning",descripcion:"Integración de TIC en educación, plataformas digitales, aprendizaje en línea.",pedagogos_clave:["Comunidad educativa global"],epoca:"digital",referencia:"",multimedia:null},
+            {id:27,periodo:"2010s",titulo:"Neuroeducación",descripcion:"Aplicación de neurociencia al aprendizaje, comprensión del cerebro en procesos educativos.",pedagogos_clave:["Francisco Mora","David Bueno"],epoca:"digital",referencia:"",multimedia:null},
+            {id:28,periodo:"2015-actualidad",titulo:"Educación STEAM",descripcion:"Integración de Ciencia, Tecnología, Ingeniería, Arte y Matemáticas.",pedagogos_clave:["Comunidad STEAM"],epoca:"digital",referencia:"",multimedia:null},
+            {id:29,periodo:"2020",titulo:"Educación remota de emergencia (COVID-19)",descripcion:"Transición masiva a educación virtual, desafíos y oportunidades de la digitalización.",pedagogos_clave:["Comunidad educativa global"],epoca:"digital",referencia:"",multimedia:null},
+            {id:30,periodo:"2025-futuro",titulo:"Inteligencia Artificial en educación",descripcion:"IA generativa, tutores virtuales, personalización adaptativa del aprendizaje.",pedagogos_clave:["Comunidad EdTech"],epoca:"digital",referencia:"",multimedia:null}
+        ];
+
+        let currentTheme = 'Azul Cielo';
+        let isDeleteMode = false;
+        let editingId = null;
+        let nextId = 1;
+        let currentFilter = 'todas';
+        let currentMultimedia = null;
+
+        const themes = [
+            { name: 'Rosa Pastel', color: '#FFE4E1' },
+            { name: 'Azul Cielo', color: '#E0F2FE' },
+            { name: 'Verde Menta', color: '#D1FAE5' },
+            { name: 'Lavanda', color: '#E9D5FF' },
+            { name: 'Durazno', color: '#FFE5CC' },
+            { name: 'Coral Suave', color: '#FFD4CC' },
+            { name: 'Menta', color: '#B2F5EA' },
+            { name: 'Rosa Polvoso', color: '#FFE1E9' },
+            { name: 'Amarillo Pastel', color: '#FFF4CC' },
+            { name: 'Verde Sage', color: '#E8F5E9' },
+            { name: 'Cítrico Vibrante', color: '#FFF9C4' },
+            { name: 'Verde Oceánico', color: '#B2EBF2' },
+            { name: 'Sueño Lavanda', color: '#E8E0FF' },
+            { name: 'Atardecer Naranja', color: '#FFDAB9' },
+            { name: 'Verde Bosque', color: '#C8E6C9' },
+            { name: 'Púrpura Real', color: '#E1BEE7' },
+            { name: 'Azul Cielo Claro', color: '#B3E5FC' },
+            { name: 'Arrecife Coral', color: '#FFCCBC' },
+            { name: 'Menta Fresca', color: '#C8F7DC' },
+            { name: 'Ámbar Dorado', color: '#FFE082' }
+        ];
+
+        // 🔥 EXTRACTOR DE ID DE YOUTUBE CORREGIDO
+        function extractYouTubeId(url) {
+            const regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]{11}).*$/;
+            const match = url.match(regExp);
+            return match && match[2].length === 11 ? match[2] : null;
+        }
+
+        // 🔥 INICIALIZACIÓN AUTOMÁTICA
+        async function initApp() {
+            try {
+                console.log('[INIT] Conectando automáticamente a Firebase con credenciales predeterminadas...');
+                await db.init(DEFAULT_FIREBASE_CONFIG);
+                window.timelineApp = { onDataUpdated: () => renderTimeline(currentFilter) };
+                const savedHitos = await db.getAllHitos();
+                if (savedHitos.length === 0) {
+                    console.log('[INIT] Cargando datos iniciales...');
+                    for (const hito of initialHitos) {
+                        await db.saveHito(hito);
+                    }
+                }
+                const allHitos = await db.getAllHitos();
+                nextId = allHitos.length > 0 ? Math.max(...allHitos.map(h => h.id)) + 1 : 1;
+                try {
+                    const savedTheme = await db.getConfig('theme');
+                    if (savedTheme) currentTheme = savedTheme;
+                } catch (e) {}
+                initThemeDropdown();
+                await renderTimeline();
+                applyTheme(currentTheme);
+                setupEventListeners();
+                showStatus('☁️ Aplicación lista y sincronizada con Firebase', 'success');
+            } catch (error) {
+                console.error('[INIT] Error crítico:', error);
+                showStatus('❌ Error al conectar con Firebase. Verifica tu conexión.', 'error');
+            }
+        }
+
+        function initThemeDropdown() {
+            const dropdown = document.getElementById('themeDropdown');
+            dropdown.innerHTML = themes.map(theme => `
+                <div class="theme-option" data-theme="${theme.name}">
+                    <div class="theme-color-preview" style="background-color: ${theme.color}"></div>
+                    <span>${theme.name}</span>
+                </div>
+            `).join('');
+        }
+
+        async function applyTheme(themeName) {
+            const theme = themes.find(t => t.name === themeName);
+            if (theme) {
+                document.documentElement.style.setProperty('--theme-color', theme.color);
+                currentTheme = themeName;
+                await db.saveConfig('theme', themeName);
+            }
+        }
+
+        function parseYear(periodo) {
+            const match = periodo.match(/(-?\d+)/);
+            if (match) {
+                let year = parseInt(match[1]);
+                if (periodo.includes('a.C.') || periodo.includes('a. C.')) year = -year;
+                return year;
+            }
+            const epocaOrder = {'prehistoria':-8000,'antiguedad':-500,'medieval':1000,'renacimiento':1500,'moderna':1700,'contemporanea':1900,'digital':2000};
+            const epoca = determineEpoca(periodo);
+            return epocaOrder[epoca] || 0;
+        }
+
+        function determineEpoca(periodo) {
+            const p = periodo.toLowerCase();
+            if (p.includes('a.c.') || p.includes('prehistoria')) return 'prehistoria';
+            const y = parseInt(periodo);
+            if (!isNaN(y)) {
+                if (y >= 500 && y < 1400) return 'medieval';
+                if (y >= 1400 && y < 1700) return 'renacimiento';
+                if (y >= 1700 && y < 1900) return 'moderna';
+                if (y >= 1900 && y < 2000) return 'contemporanea';
+                if (y >= 2000) return 'digital';
+            }
+            return 'contemporanea';
+        }
+
+        async function renderTimeline(filter = 'todas') {
+            currentFilter = filter;
+            const timeline = document.getElementById('timeline');
+            try {
+                const allHitos = await db.getAllHitos();
+                const filtered = filter === 'todas' ? allHitos : allHitos.filter(h => h.epoca === filter);
+                filtered.sort((a, b) => parseYear(a.periodo) - parseYear(b.periodo));
+                timeline.innerHTML = filtered.map(hito => {
+                    let multimediaHTML = '';
+						if (hito.multimedia) {
+							if (hito.multimedia.tipo === 'youtube') {
+								const videoId = String(hito.multimedia.data).trim();
+								if (videoId && /^[a-zA-Z0-9_-]{11}$/.test(videoId)) {
+									multimediaHTML = `
+										<div class="hito-multimedia">
+											<iframe 
+												src="https://www.youtube.com/embed/${videoId}?autoplay=0&rel=0&modestbranding=1" 
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+												allowfullscreen
+												style="width:100%;height:200px;border:none;border-radius:8px;"
+											></iframe>
+										</div> `;
+								
+                            }
+                        } else if (hito.multimedia.data && hito.multimedia.data.startsWith('http')) {
+                            const tag = hito.multimedia.tipo === 'video' ? 'video controls' : 'img';
+                            multimediaHTML = `<div class="hito-multimedia"><${tag} src="${hito.multimedia.data}" ${hito.multimedia.tipo === 'video' ? 'controls' : ''}></${hito.multimedia.tipo === 'video' ? 'video' : 'img'}></div>`;
+                        }
+                    }
+                    return `
+                        <div class="timeline-item" data-id="${hito.id}" draggable="true">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="delete-indicator" data-id="${hito.id}">×</div>
+                                <div class="hito-header">
+                                    <div class="hito-period">${hito.periodo}</div>
+                                    <div class="hito-actions">
+                                        <button class="btn-icon" onclick="editHito(${hito.id})">✏️</button>
+                                        <button class="btn-icon delete" onclick="confirmDeleteHito(${hito.id})">🗑️</button>
+                                    </div>
+                                </div>
+                                <h3 class="hito-title">${hito.titulo}</h3>
+                                <p class="hito-description">${hito.descripcion}</p>
+                                ${hito.pedagogos_clave?.length ? `<div class="pedagogos">${hito.pedagogos_clave.map(p => `<span class="pedagogo-badge">${p}</span>`).join('')}</div>` : ''}
+                                ${multimediaHTML}
+                                ${hito.referencia ? `<div class="hito-reference">${hito.referencia}</div>` : ''}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            } catch (e) {
+                console.error(e);
+                showStatus('Error al cargar hitos', 'error');
+            }
+        }
+
+        async function createHito(data) {
+            try {
+                const newHito = { id: nextId++, ...data, epoca: determineEpoca(data.periodo) };
+                if (data.multimedia?.file) {
+                    const url = await db.uploadFile(data.multimedia.file, newHito.id);
+                    newHito.multimedia = { tipo: data.multimedia.tipo, data: url };
+                } else if (data.multimedia?.tipo === 'youtube') {
+                    // ✅ Guardamos SOLO el ID como string
+                    newHito.multimedia = { tipo: 'youtube', data: String(data.multimedia.data).trim() };
+                }
+                await db.saveHito(newHito);
+                await renderTimeline(currentFilter);
+                showStatus('✅ Hito guardado', 'success');
+            } catch (e) {
+                showStatus('❌ Error al guardar', 'error');
+            }
+        }
+
+        async function updateHito(id, data) {
+            try {
+                const existing = await db.getHito(id);
+                if (!existing) return;
+                const updated = { ...existing, ...data, epoca: determineEpoca(data.periodo) };
+                if (data.multimedia?.file) {
+                    const url = await db.uploadFile(data.multimedia.file, id);
+                    updated.multimedia = { tipo: data.multimedia.tipo, data: url };
+                } else if (data.multimedia?.tipo === 'youtube') {
+                    updated.multimedia = { tipo: 'youtube', data: String(data.multimedia.data).trim() };
+                }
+                await db.saveHito(updated);
+                await renderTimeline(currentFilter);
+                showStatus('✅ Hito actualizado', 'success');
+            } catch (e) {
+                showStatus('❌ Error al actualizar', 'error');
+            }
+        }
+
+        async function deleteHitoFromDB(id) {
+            try {
+                await db.deleteHito(id);
+                await renderTimeline(currentFilter);
+                showStatus('✅ Hito eliminado', 'success');
+            } catch (e) {
+                showStatus('❌ Error al eliminar', 'error');
+            }
+        }
+
+        async function openModal(title = 'Añadir Hito', hito = null) {
+            document.getElementById('modalTitle').textContent = title;
+            const form = document.getElementById('hitoForm');
+            currentMultimedia = null;
+            if (hito) {
+                editingId = hito.id;
+                form.periodo.value = hito.periodo;
+                form.titulo.value = hito.titulo;
+                form.descripcion.value = hito.descripcion;
+                form.pedagogos.value = hito.pedagogos_clave?.join(', ') || '';
+                form.referencia.value = hito.referencia || '';
+                if (hito.multimedia) {
+                    currentMultimedia = hito.multimedia;
+                    showMultimediaPreview(hito.multimedia);
+                }
+            } else {
+                editingId = null;
+                form.reset();
+                hideMultimediaPreview();
+            }
+            document.getElementById('modalOverlay').classList.add('show');
+        }
+
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('show');
+            editingId = null;
+        }
+
+        function handleFileUpload(file) {
+            if (file.size > 10 * 1024 * 1024) {
+                showStatus('Archivo muy grande (máximo 10MB)', 'error');
+                return;
+            }
+            const tipo = file.type.startsWith('image/') ? (file.type === 'image/gif' ? 'gif' : 'imagen') : 'video';
+            const tempUrl = URL.createObjectURL(file);
+            currentMultimedia = { tipo, data: tempUrl, file };
+            showMultimediaPreview({ tipo, data: tempUrl });
+        }
+		// En handleYouTubeUrl: asegúrate de que solo guardas el ID
+        function handleYouTubeUrl(url) {
+            const id = extractYouTubeId(url);
+            if (id) {
+                currentMultimedia = { tipo: 'youtube', data: id }; // ✅ SOLO el ID
+                showMultimediaPreview({ tipo: 'youtube', data: id });
+            } else {
+                showStatus('URL de YouTube no válida', 'error');
+            }
+        }
+
+        function showMultimediaPreview(multimedia) {
+            const preview = document.getElementById('multimediaPreview');
+            let content = '';
+            if (multimedia.tipo === 'youtube') {
+                content = `<iframe 
+							src="https://www.youtube.com/embed/${multimedia.data}?autoplay=0&rel=0&modestbranding=1" 
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+							allowfullscreen
+							style="width:100%;height:200px;border:none;border-radius:8px;"
+						></iframe>`;
+            } else if (multimedia.data) {
+                const tag = multimedia.tipo === 'video' ? 'video controls' : 'img';
+                content = `<${tag} src="${multimedia.data}" style="width:100%;height:auto;border-radius:8px;" ${multimedia.tipo === 'video' ? 'controls' : ''}></${multimedia.tipo === 'video' ? 'video' : 'img'}>`;
+            }
+            if (content) {
+                preview.innerHTML = `<div style="position:relative;">${content}<button class="multimedia-remove" onclick="removeMultimedia()">×</button></div>`;
+                preview.style.display = 'block';
+            }
+        }
+
+        function hideMultimediaPreview() {
+            const p = document.getElementById('multimediaPreview');
+            p.style.display = 'none';
+            p.innerHTML = '';
+        }
+
+        function removeMultimedia() {
+            currentMultimedia = null;
+            hideMultimediaPreview();
+            document.getElementById('youtubeUrl').value = '';
+            document.getElementById('fileInput').value = '';
+        }
+
+        function setupEventListeners() {
+            document.getElementById('addHitoBtn').addEventListener('click', () => openModal());
+            document.getElementById('modalClose').addEventListener('click', closeModal);
+            document.getElementById('cancelBtn').addEventListener('click', closeModal);
+            document.getElementById('hitoForm').addEventListener('submit', async e => {
+                e.preventDefault();
+                const f = e.target;
+                const data = {
+                    periodo: f.periodo.value,
+                    titulo: f.titulo.value,
+                    descripcion: f.descripcion.value,
+                    pedagogos_clave: f.pedagogos.value ? f.pedagogos.value.split(',').map(p => p.trim()).filter(p => p) : [],
+                    referencia: f.referencia.value || '',
+                    multimedia: currentMultimedia || null
+                };
+                if (editingId) await updateHito(editingId, data);
+                else await createHito(data);
+                closeModal();
+            });
+
+            document.getElementById('youtubeUrl').addEventListener('blur', e => e.target.value && handleYouTubeUrl(e.target.value));
+
+            document.getElementById('filters').addEventListener('click', e => {
+                if (e.target.classList.contains('filter-btn')) {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    renderTimeline(e.target.dataset.epoca);
+                }
+            });
+            document.getElementById('deleteMode').addEventListener('click', toggleDeleteMode);
+            document.getElementById('saveBtn').addEventListener('click', () => showStatus('☁️ Datos sincronizados automáticamente', 'success'));
+            document.getElementById('restoreBtn').addEventListener('click', confirmRestore);
+            document.getElementById('themeBtn').addEventListener('click', () => document.getElementById('themeDropdown').classList.toggle('show'));
+            document.getElementById('themeDropdown').addEventListener('click', e => {
+                const opt = e.target.closest('.theme-option');
+                if (opt) {
+                    applyTheme(opt.dataset.theme);
+                    document.getElementById('themeDropdown').classList.remove('show');
+                }
+            });
+            document.getElementById('firebaseConfigBtn').addEventListener('click', showFirebaseConfigModal);
+            document.getElementById('configModalClose').addEventListener('click', hideFirebaseConfigModal);
+            document.getElementById('firebaseConfigForm').addEventListener('submit', handleFirebaseConfig);
+            document.addEventListener('click', e => !e.target.closest('.theme-selector') && document.getElementById('themeDropdown').classList.remove('show'));
+            document.addEventListener('keydown', e => e.key === 'Escape' && closeModal());
+        }
+
+        function toggleDeleteMode() {
+            isDeleteMode = !isDeleteMode;
+            const t = document.getElementById('timeline'), b = document.getElementById('deleteMode');
+            t.classList.toggle('delete-mode', isDeleteMode);
+            b.classList.toggle('active', isDeleteMode);
+            b.innerHTML = isDeleteMode ? '<span>🗑️</span> Salir del modo eliminar' : '<span>🗑️</span> Eliminar Hito';
+            if (isDeleteMode) {
+                document.querySelectorAll('.delete-indicator').forEach(i => i.onclick = () => confirmDeleteHito(parseInt(i.dataset.id)));
+            }
+        }
+
+        async function confirmDeleteHito(id) {
+            const hito = await db.getHito(id);
+            if (hito && confirm(`¿Eliminar "${hito.titulo}"?`)) {
+                await deleteHitoFromDB(id);
+                if (isDeleteMode) toggleDeleteMode();
+            }
+        }
+
+        async function confirmRestore() {
+            if (confirm('¿Restaurar los 30 hitos originales? (Se perderán tus cambios)')) {
+                await db.clearAll();
+                for (const h of initialHitos) await db.saveHito(h);
+                nextId = 31;
+                await renderTimeline();
+                showStatus('✅ Restauración completada', 'success');
+            }
+        }
+
+        async function editHito(id) {
+            const h = await db.getHito(id);
+            if (h) openModal('Editar Hito', h);
+        }
+
+        function showStatus(msg, type = 'success') {
+            const s = document.getElementById('statusMessage');
+            s.textContent = msg;
+            s.className = `status-message ${type} show`;
+            setTimeout(() => s.classList.remove('show'), 3000);
+        }
+
+        function showFirebaseConfigModal() {
+            const f = document.getElementById('firebaseConfigForm');
+            const c = DEFAULT_FIREBASE_CONFIG;
+            f.apiKey.value = c.apiKey;
+            f.authDomain.value = c.authDomain;
+            f.databaseURL.value = c.databaseURL;
+            f.projectId.value = c.projectId;
+            f.storageBucket.value = c.storageBucket;
+            f.messagingSenderId.value = c.messagingSenderId;
+            f.appId.value = c.appId;
+            f.measurementId.value = c.measurementId;
+            document.getElementById('firebaseConfigModal').classList.add('show');
+        }
+
+        function hideFirebaseConfigModal() {
+            document.getElementById('firebaseConfigModal').classList.remove('show');
+        }
+
+        async function handleFirebaseConfig(e) {
+            e.preventDefault();
+            const f = e.target;
+            const config = {
+                apiKey: f.apiKey.value,
+                authDomain: f.authDomain.value,
+                databaseURL: f.databaseURL.value,
+                projectId: f.projectId.value,
+                storageBucket: f.storageBucket.value,
+                messagingSenderId: f.messagingSenderId.value,
+                appId: f.appId.value,
+                measurementId: f.measurementId.value
+            };
+            try {
+                await db.init(config);
+                Object.assign(DEFAULT_FIREBASE_CONFIG, config);
+                await renderTimeline();
+                hideFirebaseConfigModal();
+                showStatus('✅ Conectado al nuevo proyecto de Firebase', 'success');
+            } catch (err) {
+                showStatus('❌ Error al conectar. Verifica las credenciales.', 'error');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
